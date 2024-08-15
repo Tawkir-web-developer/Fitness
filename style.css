@@ -1,0 +1,73 @@
+.bg-color{
+  background: rgb(0, 0, 0);
+}
+.display-flex{
+  display: flex;
+}
+/* navbr Main*/
+
+.navbr{
+  justify-content: space-between;
+  align-items: center;
+}
+.Fitness-text{
+  font-size: 3rem;
+  font-weight: 800;
+  color: rgb(230, 83, 60);
+  width: 132px;
+  height: 44px;
+}
+.nav-item{
+  list-style: none;
+  margin-left: 1px;
+  margin-right: 41px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.nav-li{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  width: 350px;
+  height: 20px;
+
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 500;
+  color: aliceblue;
+  padding: 4px, 4px, 4px, 4px;
+  width: 64px;
+  height: 22px;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 6px 1px 3px 3px;
+}
+#home-more{
+  background-color: rgb(230, 83, 60);
+  border: 1px solid tomato;
+}
+.banner-description{
+  color: rgb(255, 255, 255);
+}
+.banner-main-one{
+  justify-content: space-around;
+}
+.banner-main{
+ 
+  width: 520px;
+  height: 282px;
+}
+.navbr, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner-title{
+  color: rgb(255, 255, 255);
+  font-size: 78px;
+  font-weight: 900;
+}
+.shape-text{
+  font-family: miama;
+  font-size: 78px;
+  
+}
