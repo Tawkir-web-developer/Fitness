@@ -1,3 +1,13 @@
+.inter-font> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.dark-one{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+}
 .bg-color{
   background: rgb(0, 0, 0);
 }
@@ -11,7 +21,7 @@
   align-items: center;
 }
 .Fitness-text{
-  font-size: 3rem;
+  font-size: 36px;
   font-weight: 800;
   color: rgb(230, 83, 60);
   width: 132px;
@@ -49,7 +59,8 @@
   border: 1px solid tomato;
 }
 .banner-description{
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
 
 }
 .banner-main-one{
@@ -161,42 +172,48 @@
  border: none;
  border-radius: 190px;
 }
-/* Services Section */
-.services {
+/* Change-one */
+.Change-one{
   text-align: center;
   padding: 50px;
   background-color: #030303;
   color: aliceblue;
+  
 }
 
-.services h2 {
+.Change-h2{
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
-.services p {
+.Change-p{
   font-size: 1.2rem;
   margin-bottom: 50px;
 }
 
-.service-items {
+.Change-items{
   display: flex;
   justify-content: center;
-  gap: 30px;
+  padding: 10px 10px 10px 10px ;
+  gap: 150px;
+
 }
 
-.service-item {
+.Change-item {
   text-align: center;
   flex: 1;
   max-width: 200px;
 }
-
-.service-item img {
+.Movement-text{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: inter;
+}
+.Change-em-img {
   max-width: 100%;
   border-radius: 50%;
   margin-bottom: 15px;
 }
-
 .service-item h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
