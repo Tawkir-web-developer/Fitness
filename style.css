@@ -231,7 +231,8 @@
   align-items: center;
   justify-content: space-between;
   background-color:rgb(34, 34, 34);
-  margin: 100px;
+  margin-left: 250px;
+  margin-bottom: 100px;
   color: rgb(255, 255, 255);
 }
 
