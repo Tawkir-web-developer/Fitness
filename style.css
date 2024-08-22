@@ -222,77 +222,78 @@
 .service-item p {
   font-size: 1rem;
 }
-/* CTA Section */
-.cta {
+/* Run */
+.Run{
+  width: 1060px;
+  height: 371px;
   display: flex;
-  padding: 50px;
+  padding: 25px;
   align-items: center;
   justify-content: space-between;
-  background-color: #242323;
-  color: aliceblue;
+  background-color:rgb(34, 34, 34);
+  margin: 100px;
+  color: rgb(255, 255, 255);
 }
 
-.cta-content {
+.Run-content {
   flex: 1;
 }
 
-.cta-content h3 {
+.Run-content h3 {
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
-.cta-content p {
+.Run-content p {
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
-.cta-image {
+.Run-image {
   flex: 1;
+  /* padding: 100px;
+  margin: 10px; */
 }
 
-.cta-image img {
+.Run-image img {
   max-width: 100%;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 /* Team Section */
 .team-section {
+  width: 1060px;
+  height: 782px;
   text-align: center;
-  padding: 50px 0;
+  color: rgb(255, 255, 255);
   background-color: #1c1c1c;
+  margin-left: 250px;
+  padding-top: 30px;
 }
-
-.team-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.team-section p {
-  font-size: 1.2rem;
-  margin-bottom: 40px;
+.img-four{
+  padding-top: 70px;
 }
 
 .team-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  gap: 20px;
 }
 
 .team-member {
-  flex: 1 1 30%;
-  max-width: 300px;
+  width: 350px;
+  height: 250px;
   text-align: center;
-  background-color: #333;
-  padding: 20px;
-  border-radius: 10px;
 }
 
 .team-member img {
-  max-width: 100%;
+  max-width: 90%;
   border-radius: 10px;
-  margin-bottom: 15px;
+  
 }
-
+.team-member img{
+  height: 100%;
+  width: 100%;
+}
 .team-member h3 {
   font-size: 1.5rem;
 }
@@ -304,6 +305,7 @@
   margin-top: 20px;
   text-align: center;
   padding: 10px;
+  text-decoration: none;
 }
 
 .footer-content {
@@ -342,6 +344,7 @@
 
 .footer-links ul li {
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 .footer-bottom {
